@@ -35,3 +35,5 @@ if (age < 18){
     console.log('sconto per gente con età maggiore di 65 anni' , prezzofinale);
 }
 
+//OUTPUT
+document.getElementById('ticket').innerHTML = `il prezzo del biglietto è: ${prezzofinale}`
