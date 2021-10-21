@@ -25,4 +25,9 @@ console.log('prezzo del biglietto in base a km' , prezzo);
 let prezzofinale = prezzo * km;
 console.log('prezzo finale del biglietto' , prezzofinale);
 
+//  4. applicazione sconti età
+if (age < 18){
+    prezzofinale = prezzofinale - (prezzofinale * 40/100);
+    console.log('sconto minori di 18 anni' , prezzofinale);
+}
 
