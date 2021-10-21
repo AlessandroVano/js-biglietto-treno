@@ -29,5 +29,9 @@ console.log('prezzo finale del biglietto' , prezzofinale);
 if (age < 18){
     prezzofinale = prezzofinale - (prezzofinale * 40/100);
     console.log('sconto minori di 18 anni' , prezzofinale);
+
+}else if (age > 65){
+    prezzofinale = prezzofinale -(prezzofinale * 60/100);
+    console.log('sconto per gente con età maggiore di 65 anni' , prezzofinale);
 }
 
