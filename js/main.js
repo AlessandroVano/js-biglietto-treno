@@ -12,3 +12,9 @@
 // 1. richiesta del numero di chilometri che si vogliono percorrere 
 const km = prompt('quanti chilometri vuoi percorrere?');
 console.log ('numero chilometri' , km);
+
+// 2. richiesta età del passeggero
+const age = prompt('quanti anni hai?');
+console.log ('numero di anni' , age);
+
+
