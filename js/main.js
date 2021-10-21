@@ -9,3 +9,6 @@
  */
 
 
+// 1. richiesta del numero di chilometri che si vogliono percorrere 
+const km = prompt('quanti chilometri vuoi percorrere?');
+console.log ('numero chilometri' , km);
